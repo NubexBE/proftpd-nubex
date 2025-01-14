@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib64/proftpd
+includedir=/usr/include/proftpd
+
+Name: ProFTPD
+Description: Professional FTP Daemon
+Version: 1.3.9rc4
+Requires: 
+Libs: -L${libdir}
+Cflags: -I${includedir}
